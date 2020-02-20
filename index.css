@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: mistyrose;
+}
+
+.page {
+    width: 100%;
+    max-width: 900px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 60px 40px;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 48px;
+    font-size: 36px;
+    line-height: 1.4;
+    text-align: center;
+    color: #444;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto; 
+}
+
+.form-element {
+    display: block;
+    flex: 0 0 50%;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
